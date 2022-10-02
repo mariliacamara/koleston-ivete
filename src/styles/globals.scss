@@ -3,5 +3,33 @@
 @tailwind utilities;
 
 body {
-  background-color: #fff;
+  background: #220F2C;
+  background: url('/assets/images/bg.jpg');
+  @apply text-white;
+}
+
+.text-grad {
+  background-image: url('/assets/images/footer-gradient.png');
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+
+.custom-grad {
+  background: url('/assets/images/footer-gradient.png') top center no-repeat;
+}
+
+.youknow {
+  width: 250px;
+
+  &--section {
+    background-image: url('/assets/images/bg-2.png');
+  }
+
+  &--image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
 }

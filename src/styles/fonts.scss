@@ -1,17 +1,31 @@
 @font-face {
   font-family: "Avenir Black";
   src: local("AvenirLT-Black"),
-    url(../assets/fonts/AvenirLT-Black.otf) format("otf");
+    url('/assets/fonts/AvenirLT-Black.otf') format("otf");
 }
 
 @font-face {
   font-family: "Avenir Roman";
   src: local("AvenirLT-Roman"),
-    url(../assets/fonts/AvenirLT-Roman.otf) format("otf");
+    url('/assets/fonts/AvenirLT-Roman.otf') format("otf");
 }
 
 @font-face {
   font-family: "Avenir Next";
   src: local("AvenirNext-Bold"),
-    url(../assets/fonts/AvenirNext-Bold.otf) format("otf");
+    url('/assets/fonts/AvenirNext-Bold.otf') format("otf");
+}
+
+@font-face {
+  font-family: "Bauer";
+  src: local("BauerBodoniPro-Bold"),
+    url('/assets/fonts/BauerBodoniPro-Bold.otf') format("otf");
+}
+
+.font-bauer {
+  font-family: "Bauer", sans-serif;
+}
+
+.avenir-bold {
+  font-family: "Avenir Black";
 }
