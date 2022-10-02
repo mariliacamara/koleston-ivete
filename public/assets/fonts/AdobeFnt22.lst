@@ -1,0 +1,153 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/mariliacamara/Downloads/Pasta Landing Page - Desktop/Document fonts/.DS_Store
+FileLength:6148
+FileModTime:686364790
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/mariliacamara/Downloads/Pasta Landing Page - Desktop/Document fonts/AdobeFnt22.lst
+FileLength:3208
+FileModTime:686364157
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/mariliacamara/Downloads/Pasta Landing Page - Desktop/Document fonts/AdobeFnt23.lst
+FileLength:3061
+FileModTime:685378902
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AvenirLT-Black
+FamilyName:Avenir LT 95 Black
+StyleName:Regular
+MenuName:Avenir LT 95 Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Avenir LT 95 Black
+WritingScript:Roman
+OutlineFileName:/Users/mariliacamara/Downloads/Pasta Landing Page - Desktop/Document fonts/AvenirLT-Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:26808
+FileModTime:263390800
+NameArray:0,Mac,4,Avenir LT 95 Black
+NameArray:0,Win,1,Avenir LT 95 Black
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AvenirLT-Roman
+FamilyName:Avenir LT 55
+StyleName:Regular
+MenuName:Avenir LT 55
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Avenir LT 55 Roman
+WritingScript:Roman
+OutlineFileName:/Users/mariliacamara/Downloads/Pasta Landing Page - Desktop/Document fonts/AvenirLT-Roman.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:26104
+FileModTime:263390830
+NameArray:0,Mac,4,Avenir LT 55 Roman
+NameArray:0,Win,1,Avenir LT 55
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNext-Bold
+FamilyName:Avenir Next
+StyleName:Bold
+MenuName:Avenir Next
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Avenir Next Bold
+WritingScript:Roman
+OutlineFileName:/Users/mariliacamara/Downloads/Pasta Landing Page - Desktop/Document fonts/AvenirNext-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:464152
+FileModTime:634828620
+NameArray:0,Mac,18,Avenir Next Bold
+NameArray:0,Mac,4,Avenir Next Bold
+NameArray:0,Win,1,Avenir Next
+NameArray:0,Win,16,Avenir Next
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BauerBodoniPro-Bold
+FamilyName:Bauer Bodoni Pro 1
+StyleName:Bold
+MenuName:Bauer Bodoni Pro
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Bauer Bodoni Pro 1 Bold
+WritingScript:Roman
+OutlineFileName:/Users/mariliacamara/Downloads/Pasta Landing Page - Desktop/Document fonts/BauerBodoniPro-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:84792
+FileModTime:678284054
+NameArray:0,Mac,18,Bauer Bodoni Pro Bold
+NameArray:0,Mac,4,Bauer Bodoni Pro 1 Bold
+NameArray:0,Win,1,Bauer Bodoni Pro
+NameArray:0,Win,16,Bauer Bodoni Pro 1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Gotham-Medium
+FamilyName:Gotham
+StyleName:Medium
+MenuName:Gotham Medium
+StyleBits:0
+WeightClass:350
+WidthClass:5
+AngleClass:0
+FullName:Gotham Medium
+WritingScript:Roman
+OutlineFileName:/Users/mariliacamara/Downloads/Pasta Landing Page - Desktop/Document fonts/Gotham-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:189188
+FileModTime:327981324
+NameArray:0,Mac,4,Gotham Medium
+NameArray:0,Win,1,Gotham Medium
+NameArray:0,Win,16,Gotham
+%EndFont
+
