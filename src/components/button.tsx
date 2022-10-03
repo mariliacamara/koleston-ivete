@@ -1,11 +1,15 @@
 import Link from 'next/link'
 
-export const KolestonButton = (props) => {
+interface Props {
+  buttonText: string
+}
+
+export const KolestonButton = (props: Props) => {
   const { buttonText } = props
   return (
     <div className="uppercase max-w-[600px] text-center font-bold">
       <Link href="http://www.google">
-        <a> {buttonText} </a>
+        <a dangerouslySetInnerHTML={{ __html: buttonText }}></a>
       </Link>
     </div>
   )

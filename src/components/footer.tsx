@@ -4,10 +4,14 @@ export const Footer = () => {
     <footer className="flex flex-col items-center">
       <img
         className="koleston"
-        src="/assets/images/footer.png"
+        src="/assets/images/footer.webp"
         alt="Koleston"
       />
-      <img className="logo" src="/assets/images/logo.png" alt="Koleston logo" />
+      <img
+        className="logo"
+        src="/assets/images/logo.webp"
+        alt="Koleston logo"
+      />
       <div className="w-full h-6 mt-5 custom-grad"></div>
     </footer>
   )
