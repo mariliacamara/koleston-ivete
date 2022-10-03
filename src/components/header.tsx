@@ -4,7 +4,7 @@ export const Header = () => {
     <header className="flex flex-col items-center">
       <img
         className="koleston"
-        src="/assets/images/header.webp"
+        src="/assets/images/header.png"
         alt="Koleston"
       />
       <div className="custom-purple flag w-full flex items-center justify-center custom-grad text-center avenir-black text-3xl pt-3 pb-6 bg-cover">
