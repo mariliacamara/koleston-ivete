@@ -8,6 +8,11 @@ body {
   @apply text-white;
 }
 
+img {
+  -webkit-user-drag: none!important;
+  user-drag: none;
+}
+
 .sr-only {
   position:absolute;
   left:-10000px;
@@ -59,4 +64,16 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fceeb5",endCo
     height: 200px;
     object-fit: contain;
   }
+}
+
+.your-color::after{
+  content:url("/assets/images/nova-formula/arrow.png"); /* with class ModalCarrot ??*/
+  position: absolute; /*or absolute*/
+  z-index:100000; /*a number that's more than the modal box*/
+  left:30px;
+  top:-60px
+}
+
+.your-color {
+  position: relative;
 }

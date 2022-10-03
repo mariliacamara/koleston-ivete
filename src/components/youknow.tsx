@@ -13,7 +13,7 @@ export const YouKnow = () => {
   return (
     <section className="youknow--section flex flex-col items-center pb-16">
       <div className="flex flex-col justify-center items-center">
-        <h3 className="w-full max-w-[700px] font-bauer text-center text-4xl my-10 text-grad">
+        <h3 className="w-full max-w-[700px] font-bauer text-center text-4xl my-10 text-grad-2">
           Você sabe tudo que vem dentro da caixinha de Koleston
         </h3>
         <div className="flex flex-col md:grid md:grid-cols-3 gap-6 max-w-[900px]">

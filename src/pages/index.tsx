@@ -2,10 +2,12 @@ import { YouKnow } from '@/components/youknow'
 import { Retoque } from '@/components/retoque'
 import { ToqueDeCor } from '@/components/toque'
 import { Footer } from '@/components/footer'
+import { NovaFormula } from '@/components/nova-formula'
 
 const Home = () => {
   return (
     <main>
+      <NovaFormula />
       <YouKnow />
       {/* <header>
         <h2>Cabelo forte por dentro, COR 100% INTERNSA POR FORA</h2>

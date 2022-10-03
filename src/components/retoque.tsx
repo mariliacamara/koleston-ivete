@@ -2,7 +2,7 @@
 export const Retoque = () => {
   return (
     <section className="flex flex-col items-center text-center pb-10">
-      <h2 className="uppercase avenir-black text-4xl text-grad mt-16">
+      <h2 className="uppercase avenir-black text-4xl text-grad-2 mt-16">
         Retoque instantâneo de raiz
       </h2>
       <p className="max-w-[550px] font-semibold text-3xl avenir-black mb-4">
