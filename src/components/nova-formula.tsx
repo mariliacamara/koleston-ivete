@@ -9,7 +9,7 @@ export const NovaFormula = () => {
         cores!
       </h2>
       <img
-        className="max-w-[800px]"
+        className="max-w-[1000px]"
         src="/assets/images/nova-formula/produtos-3.webp"
         alt=""
       />

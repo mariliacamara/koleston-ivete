@@ -5,6 +5,7 @@
 body {
   background: #220F2C;
   background: url('/assets/images/bg-tiny.jpg');
+  font-family: "Avenir Black";
   @apply text-white;
 }
 
@@ -50,6 +51,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fceeb5",endCo
 
 .custom-grad {
   background: url('/assets/images/footer-gradient.webp') top center no-repeat;
+  background-size: cover;
 }
 
 .youknow {
@@ -76,4 +78,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fceeb5",endCo
 
 .your-color {
   position: relative;
+}
+
+.flag {
+  margin-top: -3.5rem;
 }
