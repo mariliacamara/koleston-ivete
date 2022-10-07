@@ -30,7 +30,15 @@ export const YouKnow = () => {
                 />
               </div>
               <div className="text-left md:text-center">
-                {item.displayTag && <span>NOVO</span>}
+                {item.displayTag && (
+                  <div className="flex justify-center items-center text-left md:text-center">
+                    <img
+                      className="max-w-[70px]"
+                      src="/assets/images/new.png"
+                      alt="NOVO"
+                    />
+                  </div>
+                )}
                 <h4 className="avenir-black uppercase text-grad">
                   {item.title}
                 </h4>
@@ -56,7 +64,11 @@ export const YouKnow = () => {
                 />
               </div>
               <div className="text-left md:text-center">
-                {item.displayTag && <span>NOVO</span>}
+                {item.displayTag && (
+                  <span>
+                    <img src="/assets/images/new.png" alt="NOVO" />
+                  </span>
+                )}
                 <h4 className="avenir-black uppercase text-grad">
                   {item.title}
                 </h4>
