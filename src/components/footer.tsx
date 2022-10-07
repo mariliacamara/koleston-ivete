@@ -10,7 +10,7 @@ export const Footer = () => {
         />
       </div>
       <img
-        className="logo w-[200px] md:w-[700px]"
+        className="logo w-[200px] md:w-[450px]"
         src="/assets/images/logo.webp"
         alt="Koleston logo"
       />
