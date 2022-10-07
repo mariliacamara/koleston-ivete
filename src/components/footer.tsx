@@ -2,11 +2,13 @@
 export const Footer = () => {
   return (
     <footer className="flex flex-col items-center">
-      <img
-        className="koleston"
-        src="/assets/images/footer.webp"
-        alt="Koleston"
-      />
+      <div>
+        <img
+          className="koleston w-[350px] md:w-full"
+          src="/assets/images/footer.webp"
+          alt="Koleston"
+        />
+      </div>
       <img
         className="logo w-[200px] md:w-[700px]"
         src="/assets/images/logo.webp"

@@ -7,7 +7,6 @@ body {
   background-image: url('/assets/images/bg-final.webp');
   background-size: cover;
   font-family: "Avenir Black";
-  overflow-x: hidden;
   @apply text-white;
 }
 
@@ -119,4 +118,18 @@ img {
 
 .header-image {
   margin-top: -55px;
+}
+
+@media screen and (max-width: 980px) {
+  .header--group {
+    background: url('/assets/images/bg-mobile.png') top center no-repeat;
+    background-size: contain;
+  }
+
+  .header-name {
+    background: url('/assets/images/header-top.png') top center no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 100%;
+  }
 }
