@@ -42,8 +42,8 @@ export const Retoque = () => {
           </li>
         </ul>
         <img
-          className="max-w-[300px] w-full mt-10"
-          src="/assets/images/retoque/before-after.webp"
+          className="max-w-[160px] md:max-w-[300px] w-full mt-10"
+          src="/assets/images/retoque/before-after.png"
           alt="Imagem do antes e depois"
         />
       </div>
