@@ -5,7 +5,8 @@ export const youKnowItems = [
     displayTag: false,
     image: '/assets/images/you-know/youknow-1.webp',
     description:
-      '<p>garante 100% de cobertura dos brancos & cor 100% intensa por fora.</p>'
+      '<p>garante 100% de cobertura dos brancos & cor 100% intensa por fora.</p>',
+    customHeight: ''
   },
   {
     id: 2,
@@ -13,7 +14,8 @@ export const youKnowItems = [
     displayTag: true,
     image: '/assets/images/you-know/youknow-2.webp',
     description:
-      '<p>com Tecnologia Plex, o segredo dos cabeleireiros para restaurar o cabelo após a coloração, garantindo cabelos fortes por dentro.</p>'
+      '<p>com Tecnologia Plex, o segredo dos cabeleireiros para restaurar o cabelo após a coloração, garantindo cabelos fortes por dentro.</p>',
+    customHeight: ''
   },
   {
     id: 3,
@@ -21,6 +23,7 @@ export const youKnowItems = [
     displayTag: false,
     image: '/assets/images/you-know/youknow-3.webp',
     description:
-      '<p>intensifica a cor e a luminosidade dos fios. Para usar após 15 dias da coloração.</p>'
+      '<p>intensifica a cor e a luminosidade dos fios. Para usar após 15 dias da coloração.</p>',
+    customHeight: ''
   }
 ]

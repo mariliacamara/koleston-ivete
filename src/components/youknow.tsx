@@ -8,11 +8,12 @@ interface Item {
   image: string
   displayTag: boolean
   description: string
+  customHeight: string
 }
 
 export const YouKnow = () => {
   return (
-    <section className="youknow--section flex flex-col items-center pt-6 md:pt-0 pb-16 px-8 md:px-0">
+    <section className="youknow--section flex flex-col items-center pt-6 md:pt-0 pb-16 pl-4 pr-6 md:px-0">
       <div className="flex flex-col justify-center items-center">
         <h3 className="w-full max-w-[700px] font-bauer text-center text-xl md:text-4xl mt-10 mb-1 md:my-10 text-grad-2 px-6">
           Você sabe tudo que vem dentro da caixinha de Koleston
@@ -58,15 +59,15 @@ export const YouKnow = () => {
         </div>
         <div className="block md:hidden">
           {youKnowItems.map((item: Item) => (
-            <div key={item.id} className="flex items-center gap-4">
-              <div className="w-[30%] inline-block">
+            <div key={item.id} className="flex items-center gap-2">
+              <div className="w-[50%] inline-block">
                 <img
                   className="youknow--image"
                   src={item.image}
                   alt={item.title}
                 />
               </div>
-              <div className="w-[70%] inline-block text-left md:text-center">
+              <div className="w-[60%] inline-block text-left md:text-center">
                 {item.displayTag && (
                   <span>
                     <img
