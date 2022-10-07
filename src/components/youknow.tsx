@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { youKnowItems } from '@/data/youknow.js'
+import clsx from 'clsx'
 
 interface Item {
   id: number
@@ -29,7 +30,12 @@ export const YouKnow = () => {
                   alt={item.title}
                 />
               </div>
-              <div className="text-left md:text-center">
+              <div
+                className={clsx(
+                  'text-left md:text-center',
+                  item.displayTag ? 'mt-0' : 'mt-6'
+                )}
+              >
                 {item.displayTag && (
                   <div className="flex justify-center items-center text-left md:text-center">
                     <img
