@@ -2,7 +2,7 @@
 export const Retoque = () => {
   return (
     <>
-      <div>
+      <div className="md:hidden">
         <img src="/assets/images/line.png" alt="linha" />
       </div>
       <section className="flex flex-col items-center text-center pb-10 px-8 md:px-0">
