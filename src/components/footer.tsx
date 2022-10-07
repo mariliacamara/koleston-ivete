@@ -8,7 +8,7 @@ export const Footer = () => {
         alt="Koleston"
       />
       <img
-        className="logo"
+        className="logo w-[200px]"
         src="/assets/images/logo.webp"
         alt="Koleston logo"
       />

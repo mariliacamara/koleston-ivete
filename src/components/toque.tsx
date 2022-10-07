@@ -3,11 +3,11 @@ import { KolestonButton } from '@/components/button'
 /* eslint-disable @next/next/no-img-element */
 export const ToqueDeCor = () => {
   return (
-    <section className="flex flex-col items-center text-center">
-      <h2 className="uppercase avenir-black text-4xl text-grad-2 mt-8">
+    <section className="flex flex-col items-center text-center px-8 md:px-0">
+      <h2 className="uppercase avenir-black text-2xl md:text-4xl text-grad-2 mt-8">
         Toque de cor
       </h2>
-      <p className="max-w-[550px] text-3xl avenir-black">
+      <p className="max-w-[550px] text-md md:text-3xl avenir-black px-8 md:px-0">
         Super condificionador, de uso diário, que realça sua cor e hidrata seu
         cabelo.
       </p>
@@ -26,7 +26,10 @@ export const ToqueDeCor = () => {
           <li>Enxágue</li>
         </ul>
       </div>
-      <KolestonButton buttonText="<p><span className='font-4xl'>Compre toda a linha de</span><br> Koleston</p>" />
+      <KolestonButton
+        buttonText="<p><span className='font-4xl'>Compre toda a linha de</span><br> Koleston</p>"
+        url="https://loja.wella.com.br/colecao-koleston"
+      />
     </section>
   )
 }

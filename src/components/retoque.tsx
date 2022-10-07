@@ -1,21 +1,21 @@
 /* eslint-disable @next/next/no-img-element */
 export const Retoque = () => {
   return (
-    <section className="flex flex-col items-center text-center pb-10">
-      <h2 className="uppercase avenir-black text-4xl text-grad-2 mt-16">
+    <section className="flex flex-col items-center text-center pb-10 px-8 md:px-0">
+      <h2 className="uppercase avenir-black text-2xl md:text-4xl text-grad-2 mt-16">
         Retoque instantâneo de raiz
       </h2>
-      <p className="max-w-[550px] font-semibold text-3xl avenir-black mb-4">
+      <p className="max-w-[550px] w-full font-semibold text-md md:text-3xl avenir-black mb-4">
         Raízes perfeitas em 3 segundos
       </p>
       <img src="/assets/images/retoque/produtos-1.webp" alt="" />
       <hr className="custom-hr" />
       <div className="mt-8 mb-8">
-        <ul className="font-semibold text-3xl avenir-black">
-          <li className="pb-3">Rende até 30 aplicações</li>
-          <li className="pb-3">Cabe na bolsa</li>
-          <li className="pb-3">Sem amônia</li>
-          <li className="pb-3">Fórmula dermatologicamente testada</li>
+        <ul className="font-semibold text-md md:text-3xl avenir-black">
+          <li className="pb-1 md:pb-3">Rende até 30 aplicações</li>
+          <li className="pb-1 md:pb-3">Cabe na bolsa</li>
+          <li className="pb-1 md:pb-3">Sem amônia</li>
+          <li className="pb-1 md:pb-3">Fórmula dermatologicamente testada</li>
           <li>Resistente à água</li>
         </ul>
       </div>
