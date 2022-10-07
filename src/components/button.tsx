@@ -1,12 +1,11 @@
 import Link from 'next/link'
 
 interface Props {
-  buttonText: string
   url: string
 }
 
 export const KolestonButton = (props: Props) => {
-  const { buttonText, url } = props
+  const { url } = props
   return (
     <>
       <div className="md:max-w-[600px] text-center hidden md:block">

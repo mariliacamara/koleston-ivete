@@ -16,10 +16,7 @@ export const NovaFormula = () => {
       <div className="your-color text-grad-2 font-bauer text-2xl md:text-4xl mt-16 mb-8 md:mb-10">
         <span>Descubra a sua cor ideal!</span>
       </div>
-      <KolestonButton
-        buttonText="<p>Clique aqui e experimente<br /> nosso teste de cor virtual</p>"
-        url="https://www.wella.com/br/teste-online-de-cor-wella"
-      />
+      <KolestonButton url="https://www.wella.com/br/teste-online-de-cor-wella" />
     </section>
   )
 }
