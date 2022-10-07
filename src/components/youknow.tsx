@@ -11,7 +11,7 @@ interface Item {
 
 export const YouKnow = () => {
   return (
-    <section className="youknow--section flex flex-col items-center pb-16 px-8 md:px-0">
+    <section className="youknow--section flex flex-col items-center pt-10 md:pt-0 pb-16 px-8 md:px-0">
       <div className="flex flex-col justify-center items-center">
         <h3 className="w-full max-w-[700px] font-bauer text-center text-xl md:text-4xl my-10 text-grad-2 px-8">
           Você sabe tudo que vem dentro da caixinha de Koleston
@@ -42,7 +42,7 @@ export const YouKnow = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-col gap-6 w-full flex md:hiddle">
+        <div className="flex flex-col gap-6 w-full flex md:hidden">
           {youKnowItems.map((item: Item) => (
             <div
               key={item.id}

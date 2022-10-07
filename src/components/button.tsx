@@ -8,10 +8,21 @@ interface Props {
 export const KolestonButton = (props: Props) => {
   const { buttonText, url } = props
   return (
-    <div className="koleston-button uppercase md:max-w-[600px] text-center font-bold text-grad p-10 text-xl md:text-3xl">
-      <Link href={url}>
-        <a dangerouslySetInnerHTML={{ __html: buttonText }}></a>
-      </Link>
-    </div>
+    <>
+      <div className="md:max-w-[600px] text-center hidden md:block">
+        <Link href={url}>
+          <a>
+            <img src="/assets/images/button-top.png" alt="" />
+          </a>
+        </Link>
+      </div>
+      <div className="mobile-btn md:max-w-[600px] text-center md:hidden">
+        <Link href={url}>
+          <a>
+            <img src="/assets/images/first-button-mobile.png" alt="" />
+          </a>
+        </Link>
+      </div>
+    </>
   )
 }

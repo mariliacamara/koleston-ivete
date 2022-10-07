@@ -10,7 +10,7 @@ export const Header = () => {
           alt="Koleston"
         />
       </div>
-      <div className="container header-image block md:hiddle">
+      <div className="container header-image block md:hidden">
         <img
           className="koleston"
           src="/assets/images/header-mobile.png"

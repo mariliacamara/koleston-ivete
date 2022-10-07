@@ -12,7 +12,7 @@ body {
 
 img {
   -webkit-user-drag: none!important;
-  user-drag: none;
+  user-drag: none!important;
 }
 
 .sr-only {
@@ -79,7 +79,7 @@ img {
   width: 50%;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 768px) {
   .your-color::after{
     content:url("/assets/images/nova-formula/arrow-1.png"); /* with class ModalCarrot ??*/
     position: absolute; /*or absolute*/
@@ -120,7 +120,7 @@ img {
   margin-top: -55px;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 768px) {
   .header--group {
     background: url('/assets/images/bg-mobile.png') top center no-repeat;
     background-size: contain;
@@ -132,4 +132,8 @@ img {
     height: 150px;
     width: 100%;
   }
+}
+
+.mobile-btn {
+  margin-bottom: -33px;
 }

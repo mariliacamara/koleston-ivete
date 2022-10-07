@@ -1,4 +1,4 @@
-import { KolestonButton } from '@/components/button'
+import { KolestonButtonFooter } from '@/components/button-footer'
 
 /* eslint-disable @next/next/no-img-element */
 export const ToqueDeCor = () => {
@@ -26,10 +26,7 @@ export const ToqueDeCor = () => {
           <li>Enxágue</li>
         </ul>
       </div>
-      <KolestonButton
-        buttonText="<p><span className='font-4xl'>Compre toda a linha de</span><br> Koleston</p>"
-        url="https://loja.wella.com.br/colecao-koleston"
-      />
+      <KolestonButtonFooter url="https://loja.wella.com.br/colecao-koleston" />
     </section>
   )
 }
