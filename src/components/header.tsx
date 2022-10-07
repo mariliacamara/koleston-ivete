@@ -17,7 +17,7 @@ export const Header = () => {
           alt="Koleston"
         />
       </div>
-      <div className="custom-purple flag w-full hidden md:flex md:items-center md:justify-center custom-grad text-center avenir-black md:text-3xl pt-3 pb-6 bg-cover">
+      <div className="custom-purple flag w-full hidden md:flex md:items-center md:justify-center custom-grad text-center avenir-black md:text-3xl pt-3 pb-3 bg-cover">
         Koleston está ainda melhor!
       </div>
     </header>
