@@ -11,6 +11,10 @@ const Home = () => {
     <main>
       <Head>
         <title>Conheça Koleston</title>
+        <meta
+          name="description"
+          content="Cabelo forte por dentro. Cor 100% intensa por fora."
+        />
       </Head>
       <Header />
       <NovaFormula />
