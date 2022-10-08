@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <main>
       <Head>
-        <title>Koleston</title>
+        <title>Conheça Koleston</title>
       </Head>
       <Header />
       <NovaFormula />
