@@ -13,7 +13,7 @@ export const Header = () => {
       <div className="container header-image block md:hidden">
         <img
           className="koleston"
-          src="/assets/images/header-mobile.png"
+          src="/assets/images/header-mobile.webp"
           alt="Koleston"
         />
       </div>
