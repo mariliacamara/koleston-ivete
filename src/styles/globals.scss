@@ -98,6 +98,12 @@ img {
   margin-top: -3.5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .flag {
+    margin-top: 0;
+  }
+}
+
 .koleston-button {
   border: 10px solid;
   border-image-slice: 1;
