@@ -34,7 +34,7 @@ export const YouKnow = () => {
               <div
                 className={clsx(
                   'text-left md:text-center',
-                  item.displayTag ? 'mt-0' : 'mt-6'
+                  item.displayTag ? 'mt-6' : 'mt-6'
                 )}
               >
                 {/* {item.displayTag && (
@@ -68,7 +68,7 @@ export const YouKnow = () => {
                 />
               </div>
               <div className="w-[60%] inline-block text-left md:text-center">
-                {item.displayTag && (
+                {/* {item.displayTag && (
                   <span>
                     <img
                       className="max-w-[50px]"
@@ -76,7 +76,7 @@ export const YouKnow = () => {
                       alt="NOVO"
                     />
                   </span>
-                )}
+                )} */}
                 <h4 className="avenir-black uppercase text-sm text-grad">
                   {item.title}
                 </h4>
