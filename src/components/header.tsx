@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 export const Header = () => {
   return (
-    <header className="flex flex-col header--group">
+    <header className="flex flex-col items-center header--group">
       {/* <div className="header-name"></div> */}
       <div className="header-image hidden md:block">
         <img
