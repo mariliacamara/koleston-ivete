@@ -37,7 +37,7 @@ export const YouKnow = () => {
                   item.displayTag ? 'mt-0' : 'mt-6'
                 )}
               >
-                {item.displayTag && (
+                {/* {item.displayTag && (
                   <div className="flex justify-center items-center text-left md:text-center">
                     <img
                       className="max-w-[70px]"
@@ -45,7 +45,7 @@ export const YouKnow = () => {
                       alt="NOVO"
                     />
                   </div>
-                )}
+                )} */}
                 <h4 className="avenir-black uppercase text-grad">
                   {item.title}
                 </h4>
