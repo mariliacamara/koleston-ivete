@@ -1,19 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
 export const Header = () => {
   return (
-    <header className="flex flex-col items-center header--group">
-      <div className="header-name"></div>
-      <div className="container header-image hidden md:block">
+    <header className="flex flex-col header--group">
+      {/* <div className="header-name"></div> */}
+      <div className="header-image hidden md:block">
         <img
           className="koleston"
-          src="/assets/images/kv-ivete.webp"
+          src="/assets/images/header-desktop-giovanna.webp"
           alt="Koleston"
         />
       </div>
       <div className="container header-image block md:hidden">
         <img
           className="koleston"
-          src="/assets/images/header-mobile.webp"
+          src="/assets/images/header-mobile-giovanna.webp"
           alt="Koleston"
         />
       </div>
